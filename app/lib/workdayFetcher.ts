@@ -140,8 +140,8 @@ async function queryWorkdayJobs(
         // US filter
         const isUS =
           locationStr === "" ||
-          /\b(US|United States|USA|Remote|AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|D\.C\.|District of Columbia)\b/i.test(
-            locationStr
+            /united states|usa|remote|telecommute/i.test(locationStr) ||
+  /\b(AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)\b/i.test(locationStr);
           );
         if (!isUS) continue;
 
