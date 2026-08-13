@@ -6,7 +6,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com)
 [![Zero dependencies](https://img.shields.io/badge/runtime_deps-0-brightgreen)](package.json)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 ---
 
@@ -180,9 +180,6 @@ The point of this tool is to see public job postings sooner, not to hide from th
 - [ ] Persist scan history so NEW badges survive a page reload
 - [ ] Email or webhook alerting on keyword matches
 
-## License
-
-MIT — see [LICENSE](LICENSE).
 
 ## Author
 
