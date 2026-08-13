@@ -96,6 +96,4 @@ The API route uses several techniques to avoid IP bans:
 - **Vercel** (serverless, 60s timeout)
 - **No external dependencies** — pure fetch API, no Puppeteer, no Apify
 
-## License
 
-MIT
