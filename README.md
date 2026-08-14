@@ -7,7 +7,6 @@
 [![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com)
 [![Zero dependencies](https://img.shields.io/badge/runtime_deps-0-brightgreen)](package.json)
 
-
 ---
 
 > **Note.** An earlier version of this project rotated user-agent strings and forged `X-Forwarded-For` / `X-Real-IP` headers, documented under a heading called "IP Protection". **That code has been removed** — the forged headers never masked the origin IP anyway, and evading employers' access controls isn't something this project should do. See [Responsible use](#responsible-use). Everything still works.
@@ -180,7 +179,6 @@ The point of this tool is to see public job postings sooner, not to hide from th
 - [ ] Persist scan history so NEW badges survive a page reload
 - [ ] Email or webhook alerting on keyword matches
 
-
 ## Author
 
 **Vasanth Kumar Pulkam** — [GitHub](https://github.com/vasanthkumarpulkam)
@@ -281,5 +279,3 @@ The API route uses several techniques to avoid IP bans:
 - **TypeScript**
 - **Vercel** (serverless, 60s timeout)
 - **No external dependencies** — pure fetch API, no Puppeteer, no Apify
-
-
